@@ -27,7 +27,14 @@
 - Repositório `ddweb-agencia` criado como central de operação da agência (memória,
   clientes, automação), separado dos sistemas.
 
+- Ligação com o painel: criada a API do agente no `ddweb-central` (branch
+  `claude/api-agente`). Posts criados pelo Claude entram como agendados no DDWEB Social,
+  sem aprovação; o Márcio acompanha pelo painel e pede correções quando precisar.
+
 **Pendências**
+- Pôr a API do agente no ar: merge da branch `claude/api-agente` no `ddweb-central`,
+  `AGENTE_API_KEY` no .env do servidor, deploy, e salvar a mesma chave no formulário
+  seguro para o host `painel.ddweb.com.br`.
 - Verificação da empresa DDWEB MARKETING DIGITAL LTDA em análise (enviada com CNH).
   Endereço do CNPJ é escritório virtual sem acesso; atualizar após regularização.
 - Análise do app pela Meta: necessária para operar contas de clientes em escala.

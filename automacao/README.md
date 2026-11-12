@@ -38,6 +38,31 @@ Node: rode com `NODE_USE_ENV_PROXY=1` para o `fetch` usar o proxy.
 Contas do Instagram cadastradas: `automacao/instagram/accounts.json`.
 Listar o que o token enxerga: `NODE_USE_ENV_PROXY=1 IG_ACCESS_TOKEN=proxy-injected node automacao/instagram/publish.mjs accounts`
 
+## Caminho padrão: publicar pelo painel DDWEB Social
+
+**Todo post de cliente entra pelo painel** (painel.ddweb.com.br/social), para aparecer no
+calendário. O Márcio não aprova nada: o post entra como `agendado` e o agendador do painel
+publica no horário, com a conta de Instagram conectada no cliente. Se algo sair errado, ele
+pede para corrigir/apagar e a lição vai para o histórico do cliente.
+
+API do agente (código em `ddweb-central`, `app/api/agente/`), header
+`Authorization: Bearer proxy-injected` (chave salva no ambiente para `painel.ddweb.com.br`):
+
+| Ação | Chamada |
+|---|---|
+| Clientes e contas | `GET https://painel.ddweb.com.br/api/agente/clientes` |
+| Listar posts | `GET /api/agente/posts?cliente_id=1&status=agendado&desde=2026-12-01T00:00:00-03:00` |
+| Criar post | `POST /api/agente/posts` com JSON `{cliente_id, tipo: feed\|carousel\|reel\|story, legenda, midias: [urls https], agendado_para: "2026-12-01T18:30:00-03:00" ou "agora"}` |
+| Ver um post | `GET /api/agente/posts/:id` (status: agendado, publicando, publicado, erro, cancelado) |
+| Reagendar / trocar legenda | `PATCH /api/agente/posts/:id` com `{agendado_para, legenda}` (só não publicados) |
+| Cancelar / apagar | `DELETE /api/agente/posts/:id` (se já publicado, apaga do Instagram também) |
+
+Fluxo: preparar a mídia (receitas abaixo) → subir no R2 → `POST /api/agente/posts` com a URL
+do Worker → conferir depois com `GET /api/agente/posts/:id`. Horários sempre com fuso `-03:00`.
+
+O token MegaBrain (`graph.facebook.com`) continua valendo para leitura, testes, comentários,
+anúncios e para contas que ainda não estão conectadas no painel.
+
 ## Organização do bucket
 
 ```
