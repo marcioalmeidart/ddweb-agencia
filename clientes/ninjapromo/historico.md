@@ -52,3 +52,8 @@
 - Próximo: após 3 a 4 dias, cortar os anúncios sem clique e manter os 5 a 8 melhores.
 - Publicação concluída: 34 posts no feed (3 marca + 16 imagens + 15 Reels) e 14 stories
   (11 imagens + 3 vídeos; os stories dos vídeos 28 e 49 falharam no processamento da Meta).
+- ERRO corrigido (13/11): os 31 anúncios de imagem foram criados com `image_url` no topo do criativo
+  inline; a Meta ignorou e usou a imagem de prévia do site (og.jpg = logo). Os 31 foram PAUSADOS
+  (gasto R$ 0). Correção validada: subir a imagem com `ads_creative_upload_media` (URL) para obter o
+  `image_hash` e usar `link_data.image_hash`. NP01 v2 (`120246569092040490`) recriado e ativo.
+  Faltam recriar 30 (NP02, NP03 e 28 do parceiro). Vídeos (15) estavam corretos.
