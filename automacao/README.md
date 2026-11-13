@@ -113,7 +113,11 @@ ffmpeg -i entrada -vf "fps=30,scale=1080:1920:force_original_aspect_ratio=increa
   Alternativa: publicar um **story-chamada** com trecho do vídeo + texto "Reels novo no perfil".
 - Não dá para usar a biblioteca de músicas do Instagram: a música vai embutida no
   arquivo e precisa ter licença comercial (pasta `musicas/`).
-- Direct: o token atual **não** tem `instagram_manage_messages`.
+- Direct: desde 13/11/2026 o token tem `instagram_manage_messages` (sem `pages_messaging`). Ler conversas:
+  pegar o token da Página (`GET /{page-id}?fields=access_token`) e chamar
+  `GET /{page-id}/conversations?platform=instagram&access_token=<token da Página>`.
+  App em modo desenvolvimento: só funciona com pessoas que têm função no app, até a análise da Meta.
+  Cada conta precisa ativar "Permitir acesso às mensagens" no app do Instagram. Envio ainda não testado.
 - Limite: 100 publicações por conta a cada 24h.
 
 ## Cliente novo

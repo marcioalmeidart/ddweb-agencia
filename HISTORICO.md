@@ -35,8 +35,14 @@
   conectado ao MegaBrain. Ver `clientes/ninjapromo/`.
 - 2026-11-13: contas de anúncios **ENGEBLIND** (Engeblind BM 02) e **Verãozin** com status
   UNSETTLED (pagamento pendente) segundo o conector de anúncios.
+- 2026-11-13: token do MegaBrain trocado no ambiente por um novo com `instagram_manage_messages`
+  (directs do Instagram). Leitura de conversas testada na Página Ninja Promo: responde, lista vazia.
+  `pages_messaging` não entrou no token; envio de resposta ainda não testado.
 
 **Pendências**
+- Directs: ativar "Permitir acesso às mensagens" no Instagram de cada conta, testar leitura e
+  resposta com uma conta que tenha função no app; atendimento a seguidores comuns depende da
+  análise do app (acesso avançado). O painel `ddweb-central` pode ainda usar o token antigo.
 - Pôr a API do agente no ar: merge da branch `claude/api-agente` no `ddweb-central`,
   `AGENTE_API_KEY` no .env do servidor, deploy, e salvar a mesma chave no formulário
   seguro para o host `painel.ddweb.com.br`.
