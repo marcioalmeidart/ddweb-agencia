@@ -32,3 +32,6 @@
   link do site na bio; repositório do site.
 - Márcio passou os links dos grupos (em `CLAUDE.md`) e verba de R$ 50 (falta confirmar se por dia).
   Site não está na conta Cloudflare da DDWEB nem em repositório identificado: botões pendentes.
+- Conta de anúncios Ninja Promo: forma de pagamento confirmada pelo conector (13/11). Link na bio
+  existe segundo o Márcio (a API não devolve o campo). As ofertas do grupo são postadas por um
+  sistema pago, o "Divulgador Ninja"; o Claude não tem acesso a ele.

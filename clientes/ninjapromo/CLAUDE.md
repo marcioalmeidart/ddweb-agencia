@@ -22,6 +22,9 @@ Objetivo de posts e anúncios: clique no site e entrada no grupo.
 - Telegram: https://t.me/+53eezTASOZhhZTZh
 - WhatsApp: https://chat.whatsapp.com/E6w8R7enPPy6SK5nst1Eyo
 
+## Ofertas
+- Postadas automaticamente nos grupos pelo sistema pago "Divulgador Ninja" (sem acesso pelo Claude).
+
 ## Direct
 - Site oficial / entrada no grupo: https://ninjapromo.club/ . Resposta padrão para quem pergunta
   como entrar: mandar o site (decisão do Márcio, 13/11/2026).
@@ -34,7 +37,8 @@ Objetivo de posts e anúncios: clique no site e entrada no grupo.
 
 ## Anúncios (situação em 13/11/2026)
 - O token MegaBrain não tem acesso às contas de anúncios do BM04; usar o conector META_ADS.
-- Conta Ninja Promo `act_1976550973700421` sem forma de pagamento.
+- Conta Ninja Promo `act_1976550973700421` com cartão cadastrado (confirmado em 13/11/2026).
+- Campanha pausada: `120246567923060490` (tráfego para o site, sem conjunto nem anúncios).
 - Pixels no BM04: "Pixel de BM - Chegou Pagou" `339881245030870` (sem disparo desde 2024) e
   "Milanesi" `290733152731086`. Nenhum pixel próprio da Ninja Promo.
 - Repositório do site ninjapromo.club: não identificado; `ninjapromo.club` bloqueado na rede do ambiente.
