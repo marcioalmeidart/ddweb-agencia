@@ -50,5 +50,5 @@
   ainda não verificados/instalados; marca do parceiro aparece nas artes (risco de denúncia se a
   autorização não for formal).
 - Próximo: após 3 a 4 dias, cortar os anúncios sem clique e manter os 5 a 8 melhores.
-- Publicação concluída: 34 posts no feed (3 marca + 16 imagens + 15 Reels) e 15 stories
-  (11 imagens + 4 vídeos; o story do vídeo 28 falhou no processamento da Meta).
+- Publicação concluída: 34 posts no feed (3 marca + 16 imagens + 15 Reels) e 14 stories
+  (11 imagens + 3 vídeos; os stories dos vídeos 28 e 49 falharam no processamento da Meta).
