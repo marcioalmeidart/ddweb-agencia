@@ -12,3 +12,10 @@
 - Direct funcionando pela API (leitura e resposta), testado com @marcioltda. Resposta padrão para
   "como entro no grupo": site https://ninjapromo.club/. Só vale para contas com função no app
   até a análise da Meta.
+- Márcio subiu criativos e identidade em `NINJA PROMO/` no bucket. Os criativos são anúncios do
+  concorrente O Rei da Promo: recomendado não usar; proposta de artes próprias (3 amostras feitas,
+  aguardando aprovação da direção). Pediu: encher o Instagram, campanhas de tráfego para o site e
+  rastreamento de conversão por criativo.
+- Pendências: decisão sobre criativos; forma de pagamento na conta de anúncios; pixel próprio;
+  repositório do site e liberação do domínio na rede; resposta automática de direct (sugestão:
+  resposta instantânea do Meta Business Suite enquanto o app não é aprovado).

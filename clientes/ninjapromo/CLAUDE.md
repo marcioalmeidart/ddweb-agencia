@@ -1,7 +1,13 @@
 # Cliente: Ninja Promo
 
-Empresa nova do Márcio (criada em nov/2026). Detalhes do negócio, público e tom: **a preencher**
-na primeira conversa de conteúdo.
+Empresa nova do Márcio (criada em nov/2026). Grupo de promoções: o ninja acha ofertas e cupons e
+manda nos grupos. O Instagram serve de vitrine (quem somos, o que fazemos) e leva ao site
+https://ninjapromo.club/ , onde a pessoa escolhe entrar no grupo do WhatsApp ou do Telegram.
+Objetivo de posts e anúncios: clique no site e entrada no grupo.
+
+## Identidade
+- Logo: mascote ninja azul com faixa amarela, amarelo `#FFE600` + azul `#1227B8`, letras gordas.
+- Arquivos no bucket: `NINJA PROMO/Identidade Visual/` (logo com e sem fundo).
 
 ## Contas
 - Página: Ninja Promo (`1496570020203869`)
@@ -17,4 +23,14 @@ na primeira conversa de conteúdo.
   como entrar: mandar o site (decisão do Márcio, 13/11/2026).
 
 ## Material
-- Bruto: pasta `ninjapromo/` no bucket `ddweb-midia` · Pronto: `ninjapromo/AAAA-MM/`
+- Bruto: pasta `NINJA PROMO/` no bucket `ddweb-midia` (com espaço e maiúsculas) · Pronto: `ninjapromo/AAAA-MM/`
+- `NINJA PROMO/Criativos/`: 43 arquivos únicos (28 imagens, 15 vídeos) **baixados da Biblioteca de
+  Anúncios do concorrente "O Rei da Promo" (@oreidapromobr)**. Trazem a marca, o @ e os preços dele
+  e rostos de terceiros. Servem só de referência de formato; não publicar nem anunciar.
+
+## Anúncios (situação em 13/11/2026)
+- O token MegaBrain não tem acesso às contas de anúncios do BM04; usar o conector META_ADS.
+- Conta Ninja Promo `act_1976550973700421` sem forma de pagamento.
+- Pixels no BM04: "Pixel de BM - Chegou Pagou" `339881245030870` (sem disparo desde 2024) e
+  "Milanesi" `290733152731086`. Nenhum pixel próprio da Ninja Promo.
+- Repositório do site ninjapromo.club: não identificado; `ninjapromo.club` bloqueado na rede do ambiente.
