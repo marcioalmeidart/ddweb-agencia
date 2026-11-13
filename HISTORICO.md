@@ -31,6 +31,11 @@
   `claude/api-agente`). Posts criados pelo Claude entram como agendados no DDWEB Social,
   sem aprovação; o Márcio acompanha pelo painel e pede correções quando precisar.
 
+- 2026-11-13: cliente novo **Ninja Promo** (portfólio BM04, antigo Chegou Pagou)
+  conectado ao MegaBrain. Ver `clientes/ninjapromo/`.
+- 2026-11-13: contas de anúncios **ENGEBLIND** (Engeblind BM 02) e **Verãozin** com status
+  UNSETTLED (pagamento pendente) segundo o conector de anúncios.
+
 **Pendências**
 - Pôr a API do agente no ar: merge da branch `claude/api-agente` no `ddweb-central`,
   `AGENTE_API_KEY` no .env do servidor, deploy, e salvar a mesma chave no formulário

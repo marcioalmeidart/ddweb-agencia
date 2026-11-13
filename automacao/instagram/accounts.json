@@ -6,5 +6,9 @@
   "engeblind": {
     "igUserId": "17841433932041083",
     "tokenEnv": "IG_ACCESS_TOKEN"
+  },
+  "ninjapromo": {
+    "igUserId": "17841461131782161",
+    "tokenEnv": "IG_ACCESS_TOKEN"
   }
 }
