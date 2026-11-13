@@ -12,5 +12,9 @@ na primeira conversa de conteúdo.
   - Chegou Pagou `act_1018383392625938` (BRL, ativa, com pagamento)
   - `act_2195431648077783` em **USD**, sem nome e sem pagamento (provavelmente criada por engano)
 
+## Direct
+- Site oficial / entrada no grupo: https://ninjapromo.club/ . Resposta padrão para quem pergunta
+  como entrar: mandar o site (decisão do Márcio, 13/11/2026).
+
 ## Material
 - Bruto: pasta `ninjapromo/` no bucket `ddweb-midia` · Pronto: `ninjapromo/AAAA-MM/`

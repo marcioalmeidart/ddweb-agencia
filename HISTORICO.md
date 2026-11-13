@@ -38,6 +38,10 @@
 - 2026-11-13: token do MegaBrain trocado no ambiente por um novo com `instagram_manage_messages`
   (directs do Instagram). Leitura de conversas testada na Página Ninja Promo: responde, lista vazia.
   `pages_messaging` não entrou no token; envio de resposta ainda não testado.
+- 2026-11-13 (directs): leitura funciona, inclusive de mensagens na aba Pedidos, desde que o
+  remetente tenha função no app (testador do Instagram). Envio falhou com erro #10 / 2534022
+  ("fora do período permitido") e a inscrição da Página em `messages` exige `pages_messaging`.
+  Próximo passo: gerar o token de novo com `pages_messaging` e repetir o envio.
 
 **Pendências**
 - Directs: ativar "Permitir acesso às mensagens" no Instagram de cada conta, testar leitura e
