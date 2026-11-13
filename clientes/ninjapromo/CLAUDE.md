@@ -38,7 +38,11 @@ Objetivo de posts e anúncios: clique no site e entrada no grupo.
 ## Anúncios (situação em 13/11/2026)
 - O token MegaBrain não tem acesso às contas de anúncios do BM04; usar o conector META_ADS.
 - Conta Ninja Promo `act_1976550973700421` com cartão cadastrado (confirmado em 13/11/2026).
-- Campanha pausada: `120246567923060490` (tráfego para o site, sem conjunto nem anúncios).
+- Campanha pausada: `120246567923060490` (tráfego para o site). Conjunto `120246568100260490`:
+  Brasil aberto, cliques no link, R$ 50/dia. Anúncios NP01, NP02, NP03 (as 3 artes de base), com
+  `utm_content=np0X` no link. Criar anúncio pelo `ads_create_ad` com criativo inline (o
+  `ads_create_creative` recusa `url_tags`).
+- Pixel próprio: "Ninja Promo" `1691006179283151` (criado 13/11/2026, ainda sem código no site).
 - Pixels no BM04: "Pixel de BM - Chegou Pagou" `339881245030870` (sem disparo desde 2024) e
-  "Milanesi" `290733152731086`. Nenhum pixel próprio da Ninja Promo.
+  "Milanesi" `290733152731086`. Não usar esses dois.
 - Repositório do site ninjapromo.club: não identificado; `ninjapromo.club` bloqueado na rede do ambiente.

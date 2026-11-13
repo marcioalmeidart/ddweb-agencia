@@ -35,3 +35,7 @@
 - Conta de anúncios Ninja Promo: forma de pagamento confirmada pelo conector (13/11). Link na bio
   existe segundo o Márcio (a API não devolve o campo). As ofertas do grupo são postadas por um
   sistema pago, o "Divulgador Ninja"; o Claude não tem acesso a ele.
+- Verba confirmada: R$ 50/dia. Criados conjunto e anúncios NP01 a NP03, tudo PAUSADO, aguardando
+  ok do Márcio para ligar. Pixel "Ninja Promo" `1691006179283151` criado pelo Márcio e ligado à
+  conta de anúncios; falta instalar no site. Resposta automática do direct ativa no Instagram
+  (Meta Business Suite), mandando para o site.
