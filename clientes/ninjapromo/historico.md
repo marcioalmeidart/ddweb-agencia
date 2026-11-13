@@ -30,3 +30,5 @@
 - Pendências: valor diário da campanha; forma de pagamento; pixel novo "Ninja Promo" (o conector
   não cria pixel, criar no Gerenciador de Eventos); ofertas reais do grupo para os posts de oferta;
   link do site na bio; repositório do site.
+- Márcio passou os links dos grupos (em `CLAUDE.md`) e verba de R$ 50 (falta confirmar se por dia).
+  Site não está na conta Cloudflare da DDWEB nem em repositório identificado: botões pendentes.

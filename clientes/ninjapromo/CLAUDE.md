@@ -18,6 +18,10 @@ Objetivo de posts e anúncios: clique no site e entrada no grupo.
   - Chegou Pagou `act_1018383392625938` (BRL, ativa, com pagamento)
   - `act_2195431648077783` em **USD**, sem nome e sem pagamento (provavelmente criada por engano)
 
+## Grupos (destino final, botões do site)
+- Telegram: https://t.me/+53eezTASOZhhZTZh
+- WhatsApp: https://chat.whatsapp.com/E6w8R7enPPy6SK5nst1Eyo
+
 ## Direct
 - Site oficial / entrada no grupo: https://ninjapromo.club/ . Resposta padrão para quem pergunta
   como entrar: mandar o site (decisão do Márcio, 13/11/2026).
