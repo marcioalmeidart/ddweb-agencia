@@ -113,12 +113,29 @@ ffmpeg -i entrada -vf "fps=30,scale=1080:1920:force_original_aspect_ratio=increa
   Alternativa: publicar um **story-chamada** com trecho do vídeo + texto "Reels novo no perfil".
 - Não dá para usar a biblioteca de músicas do Instagram: a música vai embutida no
   arquivo e precisa ter licença comercial (pasta `musicas/`).
-- Direct: desde 13/11/2026 o token tem `instagram_manage_messages` (sem `pages_messaging`). Ler conversas:
-  pegar o token da Página (`GET /{page-id}?fields=access_token`) e chamar
-  `GET /{page-id}/conversations?platform=instagram&access_token=<token da Página>`.
-  App em modo desenvolvimento: só funciona com pessoas que têm função no app, até a análise da Meta.
-  Cada conta precisa ativar "Permitir acesso às mensagens" no app do Instagram. Envio ainda não testado.
+- Direct do Instagram: funciona desde 13/11/2026 (ver "Direct" abaixo).
 - Limite: 100 publicações por conta a cada 24h.
+
+## Direct do Instagram (testado em 13/11/2026 no @ninjapromo.club)
+
+Todas as chamadas usam o **token da Página** (não o do MegaBrain direto):
+`GET /{page-id}?fields=access_token` e passar o valor em `?access_token=`. Nunca imprimir o token.
+
+| Ação | Chamada |
+|---|---|
+| Inscrever a Página (uma vez por conta) | `POST /{page-id}/subscribed_apps?subscribed_fields=messages` |
+| Ler conversas | `GET /{page-id}/conversations?platform=instagram&fields=participants,messages.limit(10){created_time,from,message}` |
+| Responder | `POST /{page-id}/messages` com JSON `{recipient:{id:<id do remetente>}, message:{text}}` |
+
+- Pré-requisitos: token com `instagram_manage_messages` + `pages_messaging`; no app do Instagram da
+  conta, "Permitir acesso às mensagens" ligado; Página inscrita em `messages`.
+- Só dá para responder mensagens recebidas **depois** da inscrição e dentro de 24h. Fora disso o
+  erro é #10 / 2534022 ("fora do período permitido").
+- Mensagens na aba Pedidos são lidas e respondidas normalmente, sem aceite manual.
+- App em modo desenvolvimento: só aparecem mensagens de quem tem função no app (ex.: testador do
+  Instagram). Seguidores comuns dependem da análise do app (acesso avançado).
+- Inscritas: Ninja Promo. Faltam DDWEB e Engeblind.
+- Responder direct de cliente real só com texto aprovado pelo Márcio (ou resposta padrão do cliente).
 
 ## Cliente novo
 

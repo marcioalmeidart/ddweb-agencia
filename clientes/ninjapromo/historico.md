@@ -9,3 +9,6 @@
 - Token novo com permissão de directs salvo no ambiente; leitura de conversas do @ninjapromo.club
   responde pela API (vazia). Falta ativar o acesso às mensagens no app do Instagram e testar resposta.
 - Perfil em 13/11: 0 posts, 0 seguidores, bio pronta, sem link. Briefing ainda não respondido.
+- Direct funcionando pela API (leitura e resposta), testado com @marcioltda. Resposta padrão para
+  "como entro no grupo": site https://ninjapromo.club/. Só vale para contas com função no app
+  até a análise da Meta.

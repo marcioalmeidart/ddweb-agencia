@@ -42,11 +42,14 @@
   remetente tenha função no app (testador do Instagram). Envio falhou com erro #10 / 2534022
   ("fora do período permitido") e a inscrição da Página em `messages` exige `pages_messaging`.
   Próximo passo: gerar o token de novo com `pages_messaging` e repetir o envio.
+- 2026-11-13 (directs, resolvido): token trocado de novo, agora com `pages_messaging`. Página
+  Ninja Promo inscrita em `messages`. Leitura e resposta testadas com sucesso, com a conversa
+  ainda em Pedidos. Receita no manual (`automacao/README.md`, seção Direct).
 
 **Pendências**
-- Directs: ativar "Permitir acesso às mensagens" no Instagram de cada conta, testar leitura e
-  resposta com uma conta que tenha função no app; atendimento a seguidores comuns depende da
-  análise do app (acesso avançado). O painel `ddweb-central` pode ainda usar o token antigo.
+- Directs: repetir a ativação (chave no Instagram + inscrição da Página) em DDWEB e Engeblind;
+  atendimento a seguidores comuns depende da análise do app (acesso avançado); tempo real exige
+  webhook num servidor. O painel `ddweb-central` pode ainda usar o token antigo (não revogar).
 - Pôr a API do agente no ar: merge da branch `claude/api-agente` no `ddweb-central`,
   `AGENTE_API_KEY` no .env do servidor, deploy, e salvar a mesma chave no formulário
   seguro para o host `painel.ddweb.com.br`.
