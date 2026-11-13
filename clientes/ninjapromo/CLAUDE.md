@@ -43,6 +43,7 @@ Objetivo de posts e anúncios: clique no site e entrada no grupo.
   `utm_content=np0X` no link. Criar anúncio pelo `ads_create_ad` com criativo inline (o
   `ads_create_creative` recusa `url_tags`). Imagem: SEMPRE `link_data.image_hash` (subir antes com
   `ads_creative_upload_media`); `image_url` no topo do criativo inline é ignorado.
+  Limite de 50 anúncios por conjunto (pausados contam; arquivados não).
 - Pixel próprio: "Ninja Promo" `1691006179283151` (criado 13/11/2026, ainda sem código no site).
 - Pixels no BM04: "Pixel de BM - Chegou Pagou" `339881245030870` (sem disparo desde 2024) e
   "Milanesi" `290733152731086`. Não usar esses dois.

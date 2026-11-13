@@ -56,4 +56,8 @@
   inline; a Meta ignorou e usou a imagem de prévia do site (og.jpg = logo). Os 31 foram PAUSADOS
   (gasto R$ 0). Correção validada: subir a imagem com `ads_creative_upload_media` (URL) para obter o
   `image_hash` e usar `link_data.image_hash`. NP01 v2 (`120246569092040490`) recriado e ativo.
-  Faltam recriar 30 (NP02, NP03 e 28 do parceiro). Vídeos (15) estavam corretos.
+  Vídeos (15) estavam corretos.
+- Correção concluída: os 30 restantes recriados como "v2" com `image_hash` e ativados. Os 31
+  anúncios quebrados foram ARQUIVADOS (o conjunto tem limite de 50 anúncios, contando pausados).
+  Estado final: 46 anúncios (31 imagens v2 + 15 vídeos), todos com mídia conferida; 34 rodando e
+  12 em análise da Meta na conferência. Hashes das imagens no bucket: `ninjapromo/2026-11/ads/`.
