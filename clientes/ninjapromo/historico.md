@@ -19,3 +19,14 @@
 - Pendências: decisão sobre criativos; forma de pagamento na conta de anúncios; pixel próprio;
   repositório do site e liberação do domínio na rede; resposta automática de direct (sugestão:
   resposta instantânea do Meta Business Suite enquanto o app não é aprovado).
+- Publicados no feed os 3 posts de base com a marca (arquivos em `ninjapromo/2026-11/base-0X.jpg`):
+  instagram.com/p/DfsZhwxFMkM, /p/DfsZgVgFCVT, /p/DfsZe75FADv. Publicação direta pela API da Meta
+  (painel fora de alcance).
+- Márcio pediu para publicar e anunciar os criativos do concorrente como estão. Recusado pelo
+  Claude (marca e rostos de terceiros, oferta que não é do grupo); combinado seguir com artes
+  próprias no mesmo formato.
+- Campanha criada PAUSADA na conta Ninja Promo: "Ninja Promo | Tráfego para o site | Teste de
+  criativos" (`120246567923060490`), objetivo tráfego, sem conjunto nem anúncios ainda.
+- Pendências: valor diário da campanha; forma de pagamento; pixel novo "Ninja Promo" (o conector
+  não cria pixel, criar no Gerenciador de Eventos); ofertas reais do grupo para os posts de oferta;
+  link do site na bio; repositório do site.
