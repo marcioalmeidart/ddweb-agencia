@@ -39,3 +39,14 @@
   ok do Márcio para ligar. Pixel "Ninja Promo" `1691006179283151` criado pelo Márcio e ligado à
   conta de anúncios; falta instalar no site. Resposta automática do direct ativa no Instagram
   (Meta Business Suite), mandando para o site.
+- Márcio afirmou que o dono do @oreidapromobr é parceiro e autorizou o uso dos criativos dele.
+  Com isso: 43 criativos dele (28 imagens + 15 vídeos) viraram anúncios R01..R51 no mesmo conjunto
+  (`utm_content=rNN`), copiados para `ninjapromo/2026-11/ads/` no bucket. Total: 46 anúncios.
+- Campanha, conjunto e os 46 anúncios ATIVADOS em 13/11 com autorização do Márcio (R$ 50/dia).
+  Vídeos ficaram em análise da Meta na ativação.
+- Instagram: 16 imagens do parceiro no feed, 11 em stories; 15 vídeos convertidos para Reels
+  (`ninjapromo/2026-11/reels/`) e 5 em stories. Márcio vai revisar manualmente e confirmar com o parceiro.
+- Riscos avisados: com 46 anúncios e R$ 50/dia a verba fica pulverizada; botões do site e pixel
+  ainda não verificados/instalados; marca do parceiro aparece nas artes (risco de denúncia se a
+  autorização não for formal).
+- Próximo: após 3 a 4 dias, cortar os anúncios sem clique e manter os 5 a 8 melhores.
