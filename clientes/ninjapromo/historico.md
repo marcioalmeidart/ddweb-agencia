@@ -61,3 +61,11 @@
   anúncios quebrados foram ARQUIVADOS (o conjunto tem limite de 50 anúncios, contando pausados).
   Estado final: 46 anúncios (31 imagens v2 + 15 vídeos), todos com mídia conferida; 34 rodando e
   12 em análise da Meta na conferência. Hashes das imagens no bucket: `ninjapromo/2026-11/ads/`.
+
+## 2026-11-14
+- Balanço do 1º dia: R$ 48,42 gastos, 12.605 impressões, 677 cliques no link (CPC R$ 0,07, CTR 5,5%),
+  487 visualizações da página (72% dos cliques chegam ao site). Destaques: R09 v2 (158 cliques),
+  R02 v2 (130), R06 v2 (112), R31 v2 (58), R41 vídeo (51). Anúncios NP (marca própria) quase sem entrega.
+- Botões do site confirmados pelo Márcio. Site está na VPS; pixel ainda não instalado (sessão sem acesso
+  ao ddweb-central; prompt de instalação entregue ao Márcio).
+- Próximo: com 3 dias de dados, manter os 5 a 8 melhores e pausar o resto.
