@@ -77,3 +77,9 @@
 - Campanha de Tráfego PAUSADA (R$ 138 em 7 dias, zero leads). Gasto diário da conta cai para ~R$ 30.
 - Campanha de seguidores `120246638513430490` segue como rascunho (sem conjunto/anúncios), não publicada.
 - Pendente: contagem real de membros nos grupos para calcular custo por membro (lead = clique, não entrada).
+- Lead: pausados NP01, R02 e R09 (R$ 1,56-1,71 por lead). Ficam R11 e R31. Orçamento mantido em R$ 30/dia.
+- Posicionamentos (desde 16/11): WhatsApp Status R$ 107,73 / 136 leads (R$ 0,79, o melhor);
+  Facebook Reels R$ 0,55; Audience Network R$ 54,29 / R$ 1,39 (clique acidental comum);
+  busca do Facebook R$ 1,95. Idade/sexo sem padrão forte (manter Advantage+).
+- Proposto e NÃO aplicado (permissão negada 2x): tirar Audience Network, Threads e busca do Facebook
+  do conjunto `120246605650060490`.
