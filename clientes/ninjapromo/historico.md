@@ -69,3 +69,11 @@
 - Botões do site confirmados pelo Márcio. Site está na VPS; pixel ainda não instalado (sessão sem acesso
   ao ddweb-central; prompt de instalação entregue ao Márcio).
 - Próximo: com 3 dias de dados, manter os 5 a 8 melhores e pausar o resto.
+
+## 2026-11-24
+- Campanha de Lead (`120246605645610490`, criada em 16/11 fora desta conversa, R$ 30/dia, otimiza o evento
+  Lead do pixel = clique no botão do grupo): 7 dias, R$ 201,94, 209 leads, R$ 0,97 por lead, caindo para
+  ~R$ 0,78 nos últimos dias. Melhores: R11 TV Philco (140 leads, R$ 0,87) e R31 Ar Philco (46, R$ 0,93).
+- Campanha de Tráfego PAUSADA (R$ 138 em 7 dias, zero leads). Gasto diário da conta cai para ~R$ 30.
+- Campanha de seguidores `120246638513430490` segue como rascunho (sem conjunto/anúncios), não publicada.
+- Pendente: contagem real de membros nos grupos para calcular custo por membro (lead = clique, não entrada).
